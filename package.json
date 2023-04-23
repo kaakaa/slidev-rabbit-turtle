@@ -2,7 +2,7 @@
   "name": "slidev-rabtle",
   "private": true,
   "scripts": {
-    "build": "slidev build --out docs",
+    "build": "slidev build --out docs --base /slidev-rabbit-turtle",
     "dev": "slidev --open",
     "export": "slidev export"
   },
