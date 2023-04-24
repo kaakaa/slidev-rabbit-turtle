@@ -9,7 +9,8 @@
   "dependencies": {
     "@slidev/cli": "^0.40.13",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "slidev-addon-rabbit": "file:../slidev-addon-rabbit"
   },
   "devDependencies": {
     "@iconify-json/emojione-monotone": "^1.1.4",
@@ -17,5 +18,10 @@
     "@iconify-json/mdi": "^1.1.50",
     "@iconify-json/uim": "^1.1.5",
     "playwright-chromium": "^1.32.3"
+  },
+  "slidev": {
+    "addons": [
+      "slidev-addon-rabbit"
+    ]
   }
 }
