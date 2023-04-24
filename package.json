@@ -10,7 +10,7 @@
     "@slidev/cli": "^0.40.13",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
-    "slidev-addon-rabbit": "file:../slidev-addon-rabbit"
+    "slidev-addon-rabbit": "^0.1.0"
   },
   "devDependencies": {
     "@iconify-json/emojione-monotone": "^1.1.4",
